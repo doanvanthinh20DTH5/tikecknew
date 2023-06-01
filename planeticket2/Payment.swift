@@ -15,19 +15,16 @@ struct Payment: View {
     @State private var iduser = 1
         @State private var vemaybays :[vemaybay] = []
         @State private var vemaybayuser : vemaybay?
-    @State private var tennguoidung:String
+    @State private var tendiadiemdi = "chua co"
+    @State private var tendiadiemden = "chua co"
     let db = Firestore.firestore()
-    
      var body: some View {
          
             
         
         let calender = Calendar.current
         let currentDate = Date()
-        let vemaybayDb = db.collection("vemaybay")
-        let hour = calender.component(.hour, from:currentDate )
-        let minutes = calender.component(.minute, from:currentDate)+2
-        
+    
         
         
         
@@ -73,7 +70,7 @@ struct Payment: View {
             Spacer().frame(height: 20)
             HStack{
                 VStack{
-                    Text("Vung tau")
+                    Text("\(tendiadiemdi)")
                         .font(.system(size: 23))
                     Text("Gio :")
                         .foregroundColor(Color.gray)
@@ -90,7 +87,7 @@ struct Payment: View {
                 }
                 
                 VStack{
-                    Text("Vung tau")
+                    Text("\(tendiadiemden)")
                         .font(.system(size: 23))
                     Text("Phut:")
                         .foregroundColor(Color.gray)
@@ -184,15 +181,7 @@ struct Payment: View {
                             .background(Color.blue)
                             .cornerRadius(10)
             Spacer()
-            Button(action: {
-                getDiadiemfirestore()
-            }) {
-                Text("Thanh toán")
-                    .foregroundColor(.white)
-            }
-            .padding()
-            .background(Color.blue)
-            .cornerRadius(10)
+           
                 
             
         }
@@ -254,6 +243,8 @@ struct Payment: View {
         //        }
         .onAppear {
             fetchVemaybay()
+            getdiadiem(id: vemaybayuser?.iddiadiemdi ?? 1, choice: 1)
+            getdiadiem(id: vemaybayuser?.iddiadiemden ?? 1, choice: 2)
         }
         
     }
@@ -339,25 +330,33 @@ struct Payment: View {
         return calendarComponents.calendar ?? Calendar.current
     }
 
-    func getDiadiemfirestore(){
-        let docref = db.collection("DiaDiem").document("id")
-        docref.getDocument{document,error in if let document = document, document.exists{
-            if let data = document.data(),
-            let iddiadiem = data["iddiadiem"] as? Int,
-               let tendiadiem = data["tendiadiem"] as? String {
-                
-                let diadiem = diaDiem(tendiadiem: tendiadiem, iddiadiem: iddiadiem)
-                print("Tendiadiem: \(diadiem.tendiadiem)")
-                print("IDdiadiem: \(diadiem.iddiadiem)")
-            }else{
-                print("fail to prin")
+    func  getdiadiem(id : Int,choice : Int){
+        let listdiadiem = Firestore.firestore().collection("diadiem")
+        listdiadiem.whereField("iddiadiem", isEqualTo: id).getDocuments{ snapshot, error in
+            if let error = error {
+                print("Error fetching book: \(error.localizedDescription)")
+                return
             }
-        }else{
-            print("asdasd")
-        }
-            
+            guard let documents = snapshot?.documents else { return }
+            let diadiem = documents.compactMap{document -> diaDiem? in
+                let data = document.data()
+                let id  = data["iddiadiem"] as? Int
+                let tendaidiemdi = data["tendiadiem"] as? String ?? ""
+                return diaDiem(tendiadiem: tendaidiemdi, iddiadiem: id ?? 1)
+                
+            }
+            if  choice == 1{
+                self.tendiadiemdi = diadiem.first?.tendiadiem ?? "chua co ten"
+
+            }
+            else{
+                self.tendiadiemden = diadiem.first?.tendiadiem ?? "chua co ten"
+
+            }
         }
     }
+    
+  
     func kiemtraThanhtoan(){
         let notificationCenter = UNUserNotificationCenter.current()
         notificationCenter.getNotificationSettings{ settings in switch settings.authorizationStatus{
@@ -375,7 +374,23 @@ struct Payment: View {
             }
         }
     }
-
+//    func fetchUser(id : Int){
+//        let usercollection = Firestore.firestore().collection("user")
+//        usercollection.whereField("iduser", isEqualTo: id).getDocuments{ snapshot, error in
+//            if let error = error {
+//                print("Error fetching book: \(error.localizedDescription)")
+//                return
+//            }
+//
+//            guard let documents = snapshot?.documents else { return }
+//
+//
+//            let user = documents.compactMap(documents ->users? in
+//                                            let data = document.data()
+//                                            let id =
+//                )
+//
+//    }
 
     func dispatchoNotification(){
         let calender = Calendar.current
