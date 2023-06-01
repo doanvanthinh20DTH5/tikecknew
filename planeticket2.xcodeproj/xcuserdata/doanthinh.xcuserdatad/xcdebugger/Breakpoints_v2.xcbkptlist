@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E24319B0-097B-4FC7-A9B2-A04A62D4BE5B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planeticket2/detailtciket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "veemaybay"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - e91384110a2708d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.veemaybay.getter : Swift.Array&lt;planeticket2.Vemaybay&gt;"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.getter : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.setter : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.modify : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - b5127e0dd83fc336"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.modify : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "3D8E3252-C4CC-4DE7-B8D7-C755C07D335C - e2ef62c80400f65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.init() -&gt; planeticket2.detailtciket"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planeticket2/detailtciket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "veemaybay"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - e91384110a2708d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.veemaybay.getter : Swift.Array&lt;planeticket2.Vemaybay&gt;"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.getter : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.setter : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - 168eb40727ec8ef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.modify : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - b5127e0dd83fc336"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.$veemaybay.modify : FirebaseFirestoreSwift.FirestoreQuery&lt;Swift.Array&lt;planeticket2.Vemaybay&gt;&gt;.Configuration with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1DDCE9AD-D542-4B7C-B6C0-D94D30D42A7C - e2ef62c80400f65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planeticket2.detailtciket.init() -&gt; planeticket2.detailtciket"
+                  moduleName = "planeticket2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doanthinh/Desktop/xcode/planeticket2/planeticket2/detailtciket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC98A8F5-0F51-4A1A-BF75-6699C40ED27F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planeticket2/detailtciket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "veemaybay"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
