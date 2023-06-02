@@ -21,6 +21,7 @@ struct ticketplaneapp:App{
         
         WindowGroup{
             viewFindPlane()
+            //12333
         }
     }
 }
